@@ -1,0 +1,47 @@
+// Core variables and mixins
+@import "agency_variables.scss";
+@import "mixins.scss";
+// Global CSS
+@import "global.scss";
+// Components
+@import "navbar.scss";
+@import "masthead.scss";
+@import "services.scss";
+@import "portfolio.scss";
+@import "timeline.scss";
+@import "team.scss";
+@import "contact.scss";
+@import "footer.scss";
+@import "intro.scss";
+
+#news-card{
+	.card{
+		height: 100%;
+	}
+}
+.count{
+    @include body-font;
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid $primary;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: $duong-den;
+    font-size: 2.5rem;
+    text-shadow: 1px 2px $xanh-bien;
+    &:hover{
+        border: 2px solid $tra-xanh;
+        font-size: 2.8rem;
+    }
+    .number{
+        font-weight: bold;
+    }
+
+}

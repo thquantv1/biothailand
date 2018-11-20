@@ -1,0 +1,26 @@
+@keyframes slide_left_out{
+    0%{
+        transform: rotate(0) translateX(0%);
+        opacity: 1;
+        }
+    100%{
+        transform: rotate(0) translateX(-150%);
+        opacity: 0;
+        }
+}
+@keyframes slide_right_in{
+    0%{
+        transform: rotate(0) translateX(150%);
+        opacity: 0;
+        }
+    100%{
+        transform: rotate(0) translateX(0);
+        opacity: 1;
+        }
+}
+.left-out{
+    animation: slide_left_out 1.5s forwards 0s linear;
+}
+.right-in{
+    animation: slide_right_in 1.5s forwards 0s linear;
+}

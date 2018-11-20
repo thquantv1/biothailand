@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);.brand-font {
+  font-family: 'Kaushan Script', cursive;
+  color: #F05E1C !important;
+  font-size: 1.7rem;
+}
+
+.nav-custom-bg {
+  background: #a9db80;
+  background: -webkit-gradient(linear, left top, left bottom, from(#a9db80), to(#96c56f));
+  background: linear-gradient(to bottom, #a9db80 0%, #96c56f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9db80', endColorstr='#96c56f',GradientType=0 );
+}
+
+.rounded-item {
+  height: 18rem;
+  width: 18rem;
+}
+
+.item-pic {
+  max-height: 30vh;
+}
+
+.dknqform .carousel-item,
+.card {
+  min-height: 75vh;
+}
+
+.jumbotron {
+  padding-top: 6.5rem;
+}
+
+@media (max-width: 767px) {
+  .jumbotron {
+    padding-top: 4.5rem;
+  }
+}
+

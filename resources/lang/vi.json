@@ -1,0 +1,13 @@
+{
+    "Login":"Đăng Nhập",
+    "Logout":"Đăng xuất",
+	"Register":"Đăng Ký",
+    "Name":"Tên",
+    "E-Mail Address":"Địa Chỉ E-mail",
+    "Password":"Mật Khẩu",
+    "Forgot Your Password?":"Quên Mật Khẩu?",
+    "Remember Me":"Ghi Nhớ",
+    "Confirm Password":"Xác Nhận Mật Khẩu",
+    "Reset Password":"Đặt lại mật khẩu",
+    "Send Password Reset Link":"Gửi liên kết để thay đổi mật khẩu"
+}
