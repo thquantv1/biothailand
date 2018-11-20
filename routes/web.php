@@ -11,8 +11,6 @@
 |
 */
 
-Route::get('test', 'ajaxTools@readCurrency');
-
 
 /*Route cho phần đăng nhập, đăng ký*/
 Auth::routes(['verify' => true]);
